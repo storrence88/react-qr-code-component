@@ -1,0 +1,33 @@
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  max-width: 320px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+
+  &__image {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  &__content {
+    padding: 22px 16px;
+    text-align: center;
+
+    h1 {
+      color: hsl(218, 44%, 22%);
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      line-height: 1.3;
+    }
+  }
+}
